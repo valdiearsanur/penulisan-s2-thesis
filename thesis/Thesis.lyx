@@ -1,28 +1,30 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass book
 \begin_preamble
 \usepackage{sectsty}
 \chapterfont{\centering} 
 
-\newcommand{\Judul}{REPOSITORY MOBILE LABORATORY}
-\newcommand{\DosenPembimbing}{Prof. Dr. I Wayan Simri Wicaksana. S.Si. M.Eng}
-\newcommand{\NamaMahasiswa}{Yudha Yogasara}
+\newcommand{\Judul}{Penggunaan Metode Transfer Learning untuk Mengenali Citra Makanan Indonesia}
+\newcommand{\DosenPembimbing}{Dr. Hustinawati, MMSI}
+\newcommand{\NamaMahasiswa}{Muhammad Valdie Arsanur}
 \newcommand{\NIRM}{92310029}
-\newcommand{\Tahun}{2012}
-\newcommand{\TempatLahir}{Bogor}
-\newcommand{\TglLahir}{16 Agustus 1987}
+\newcommand{\Tahun}{2018}
+\newcommand{\TempatLahir}{Makassar}
+\newcommand{\TglLahir}{13 April 1995}
 
-\newcommand{\TanggalLulus}{29 Maret 2012}
+\newcommand{\TanggalLulus}{29 Maret 2019}
 \newcommand{\KataKunci}{Kata kunci disini}
 \newcommand{\JumlahHalamanDepan}{xiii}
 \newcommand{\JumlahHalaman}{117}
 \newcommand{\TahunPustaka}{2006:2011}
 
 \newcommand{\KotaPenulis}{Jakarta}
-\newcommand{\TglTulis}{Mei 2012}
+\newcommand{\TglTulis}{Desember 2018}
 
 \newcommand{\Rektor}{Prof. Dr. E.S. Margianti, SE, MM}
 \newcommand{\Koordinator}{Prof. Dr. Yuhara Sukra MSc}
@@ -47,16 +49,18 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman default
-\font_sans default
-\font_typewriter default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
-
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -68,16 +72,26 @@
 \use_hyperref false
 \papersize a4paper
 \use_geometry true
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
+\justification true
 \use_refstyle 0
+\use_minted 0
 \index Indeks
 \shortcut idx
 \color #008000
@@ -90,7 +104,10 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle fancy
@@ -179,6 +196,10 @@ vspace*{10mm}
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -217,6 +238,10 @@ vspace*{25mm}
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -244,6 +269,10 @@ vspace*{5mm}
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -265,6 +294,10 @@ status open
 vspace*{3cm}
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -305,9 +338,9 @@ vspace*{3cm}
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="3">
 <features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="top">
 <row>
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
@@ -480,6 +513,10 @@ vspace*{25mm}
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -564,7 +601,7 @@ addcontentsline{toc}{chapter}{Halaman Pengesahan}
 <lyxtabular version="3" rows="4" columns="3">
 <features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="35mm">
-<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top">
 <column alignment="left" valignment="top" width="60text%">
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -753,6 +790,10 @@ vspace*{10mm}
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -776,6 +817,10 @@ status open
 vspace*{15mm}
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -810,6 +855,10 @@ status open
 vspace*{25mm}
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -849,6 +898,10 @@ status open
 vspace*{25mm}
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1235,6 +1288,10 @@ vspace*{25mm}
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1281,6 +1338,10 @@ vspace*{10mm}
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1298,7 +1359,7 @@ NamaMahasiswa
 \end_inset
 
 , S.
- Kom
+ T
 \end_layout
 
 \begin_layout Chapter*
@@ -1540,6 +1601,10 @@ vspace*{20mm}
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1597,6 +1662,10 @@ status open
 vspace*{10mm}
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -1749,37 +1818,130 @@ noindent
 \end_layout
 
 \begin_layout Standard
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
- Nunc vehicula, risus sit amet fringilla ullamcorper, sem velit fermentum
- enim, nec viverra quam mauris a mauris.
- Praesent a tortor ligula, sit amet facilisis arcu.
- Donec eu lectus ante, eget tincidunt ante.
- Nam suscipit arcu id felis fermentum sed sollicitudin magna egestas.
- Curabitur non metus leo.
- Duis feugiat venenatis orci, in hendrerit velit ornare sed.
- Nulla facilisi.
- Donec odio tellus, rutrum vel condimentum et, porta a lectus.
- Duis volutpat consectetur feugiat.
+Otak normal manusia memiliki kemampuan perseptual yang sangat baik.
+ Otak manusia mampu dengan mudah membedakan objek yang berada di sekitarnya.
+ Namun hal tersebut menjadi permasalahan yang sulit diselesaikan oleh komputer.
+ Permasalahan tersebut dipelajari dalam disiplin ilmu yang dinamakan Computer
+ Vision.
+ Computer Vision memiliki manfaat untuk mengotomatisasi tugas-tugas yang
+ dilakukan oleh sistem visual manusia.
 \end_layout
 
 \begin_layout Standard
-Pellentesque non est at nibh condimentum feugiat.
- Donec facilisis molestie odio eget vehicula.
- Vestibulum sed mauris nunc.
- Sed pharetra mollis felis, eget consequat libero gravida id.
- Aenean vel augue mauris.
- Phasellus consectetur ornare dolor varius congue.
- Ut blandit, lacus nec rhoncus ultrices, libero tortor porttitor mauris,
- quis placerat orci ligula at quam.
- Nullam id tellus ut diam accumsan rhoncus sed in turpis.
- Duis vulputate euismod convallis.
- Nam odio ligula, elementum nec euismod scelerisque, porta eget lectus.
- Mauris purus libero, facilisis id tempor ut, condimentum at ligula.
- Etiam varius sodales mauris placerat consectetur.
- Phasellus facilisis pulvinar tempus.
- Nam id massa metus.
- Duis tempus sodales augue, non ultrices est egestas in.
- Aliquam tortor sapien, consectetur id luctus in, commodo a sem.
+Computer Vision adalah bidang yang berhubungan dengan bagaimana komputer
+ dapat dibuat untuk mendapatkan pemahaman tingkat tinggi dari gambar digital
+ atau video.
+ Tugas computer vision adalah untuk memperoleh, memproses, menganalisis
+ dan memahami gambar digital, dan ekstraksi data berdimensi tinggi dari
+ dunia nyata untuk menghasilkan informasi numerik atau simbolis dalam bentuk
+ keputusan 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Reinhard2014"
+literal "true"
+
+\end_inset
+
+.
+ Data gambar dapat berasal dari berbagai sumber, seperti potongan frame
+ pada video, hasil bidikan kamera, hasil dari peralatan pencitraan medis
+ dan lain lain.
+ Computer Vision menerapkan teori dan model dari beberapa bidang seperti
+ Machine Learning (pembelajaran mesin), ilmu kognitif, psikologi, pengenalan
+ pola untuk menciptakan aplikasi yang memecahkan masalah yang sangat spesifik.
+\end_layout
+
+\begin_layout Standard
+Salah satu aplikasi yang memiliki potensi besar dalam computer vision adalah
+ pengenalan makanan.
+ Pendeteksian makanan memiliki tantangan tersendiri karena makanan cenderung
+ dapat berubah bentuk.
+ Selain itu, beberapa jenis makanan dapat memiliki intra-kelas yang tinggi
+ dan varian antar-kelas yang rendah 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "NutriNet2017"
+literal "true"
+
+\end_inset
+
+.
+ Hal tersebut berarti beberapa makanan dapat berbeda jenis walaupun memiliki
+ bentuk yang sama, ataupun sejenis walaupun memiliki bentuk yang berbeda.
+\end_layout
+
+\begin_layout Standard
+Berbagai penelitian untuk mengenali makanan telah dilakukan, seperti Kawano
+ dan Yanai yang menggunakan metode Fisher Vector dan Linear One-vs-Rest
+ Support Vector Machine untuk mengenali 100 jenis makanan Jepang yang hasilnya
+ adalah akurasi sebesar 72% 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kawano2013RealTimeMF"
+literal "true"
+
+\end_inset
+
+.
+ Penelitian terhadap makanan indonesia juga telah dilakukan oleh Giovany
+ et.al.
+ yang menggunakan metode Machine Learning dan Scale Invariant Feature Transform
+ (SIFT) yang hasilnya adalah akurasi sebesar 51% 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "GIOVANY2017612"
+literal "true"
+
+\end_inset
+
+.
+ Namun akurasi pada penelitian tersebut masih terbilang rendah karena terbatasny
+a dataset 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "GIOVANY2017612"
+literal "true"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Seperti yang dinyatakan sebelumnya, pengenalan gambar memerlukan jumlah
+ data yang sangat besar.
+ Selain itu komputasi yang dilakukan untuk melatih model sangat mahal 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Shin2016DeepCN"
+literal "true"
+
+\end_inset
+
+.
+ Sehingga umumnya peneliti menggunakan model yang sudah terlatih pada dataset
+ dengan jumlah yang besar (dalam hal ini sudah memiliki bobot) untuk menyelesaik
+an permasalahan tertentu.
+ Proses tersebut dinamakan sebagai transfer learning 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "CS231n"
+literal "true"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Penelitian ini dikhususkan untuk mengembangkan penelitian Giovany et.
+ al.
+ dengan merancang sistem pengenalan 3 gambar makanan Indonesia, yaitu bakso,
+ ayam bakar dan sate.
+ Penelitian dilakukan untuk meningkatkan akurasi dari penelitian sebelumnya
+ dengan menggunakan metode transfer learning.
+ Transfer learning yang dilakukan menggunakan arsitektur CNN yang telah
+ terlatih pada skala gambar yang besar.
 \end_layout
 
 \begin_layout Section
@@ -1803,45 +1965,64 @@ noindent
 \end_layout
 
 \begin_layout Standard
-Aenean mi nibh, sagittis tempus fermentum nec, tristique vitae orci.
- Suspendisse vitae dui quis mi fringilla luctus et a dolor.
- Etiam pellentesque nisl quis dui ultrices id interdum dolor ultricies.
- Suspendisse euismod sodales ipsum et luctus.
- Aenean in nunc nec diam adipiscing commodo.
- Nam ornare volutpat ornare.
- Nunc ultricies, velit nec imperdiet tempus, justo massa ultricies quam,
- in feugiat sem purus vel urna.
- In elementum viverra feugiat.
- Cras urna risus, pulvinar rutrum bibendum non, rutrum eget massa.
- Quisque tincidunt dictum metus convallis semper.
- Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
- inceptos himenaeos.
- Vestibulum mollis consectetur neque quis vulputate.
- Quisque vel luctus nulla.
- Sed at lacus est, vitae vestibulum magna.
- Sed interdum hendrerit diam et vestibulum.
+Berdasarkan latar belakang yang telah dijelaskan, maka terdapat permasalahan-per
+masalahan yang terjadi, yaitu :
 \end_layout
 
-\begin_layout Standard
-Nunc et erat at nisi cursus venenatis.
- Pellentesque dictum luctus nisl consectetur consequat.
- Curabitur id pulvinar diam.
- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
- Praesent hendrerit ultrices ante sit amet elementum.
- Nulla eu ante id sem rutrum fermentum a vitae augue.
- In sed velit vitae eros imperdiet vehicula.
- Curabitur nisi nunc, adipiscing a ultricies eget, cursus at ipsum.
- Proin adipiscing blandit nisi, vitae sollicitudin ante ultricies eu.
- Maecenas in luctus ante.
- Ut eu sem nisi.
- Vivamus tempor erat eros.
- Nunc et tortor in enim vulputate eleifend a ut eros.
- Aenean tempus elementum massa, ac scelerisque nulla adipiscing vel.
- Nulla facilisi.
+\begin_layout Enumerate
+Penelitian yang dilakukan oleh Giovany et.
+ al.
+ belum menghasilkan tingkat akurasi yang maksimal menggunakan algoritma
+ pembelajaran mesin.
+\end_layout
+
+\begin_layout Enumerate
+Rendahnya akurasi dari suatu model pembelajaran mesin dipengaruhi oleh besarnya
+ jumlah dataset pada proses 
+\emph on
+training
+\emph default
+.
 \end_layout
 
 \begin_layout Section
 Rumusan Masalah
+\end_layout
+
+\begin_layout Standard
+Rumusan masalah pada penelitian ini adalah sebagai berikut :
+\end_layout
+
+\begin_layout Enumerate
+Bagaimana menerapkan metode 
+\emph on
+transfer learning
+\emph default
+ untuk memecahkan permasalahan pada penelitian Giovany et.
+ al.
+\end_layout
+
+\begin_layout Enumerate
+Bagaimana menguji akurasi dari model yang dihasilkan oleh 
+\emph on
+transfer learning.
+\end_layout
+
+\begin_layout Section
+Batasan Masalah
+\end_layout
+
+\begin_layout Standard
+Batasan masalah pada penelitian ini mengacu kepada :
+\end_layout
+
+\begin_layout Enumerate
+Melakukan analisis citra 3 jenis makanan Indonesia, yaitu : bakso, ayam
+ bakar dan sate.
+\end_layout
+
+\begin_layout Enumerate
+Menggunakan model yang telah ditraining pada jumlah gambar yang besar.
 \end_layout
 
 \begin_layout Section
@@ -1849,20 +2030,22 @@ Tujuan Penelitian
 \end_layout
 
 \begin_layout Standard
-Proin eu leo quis risus congue aliquam quis nec mauris.
- Donec cursus pretium diam, eget sagittis massa aliquet ut.
- Suspendisse potenti.
- Vestibulum adipiscing lorem et urna imperdiet interdum ornare eros aliquet.
- Aliquam quis ligula in libero condimentum pulvinar.
- Integer a ante metus.
- Sed eu quam eu lorem cursus posuere.
- Duis sed ligula leo, a scelerisque elit.
- Nam pretium, leo in rhoncus scelerisque, felis lacus imperdiet mi, vitae
- semper lectus nisl volutpat mi.
- Vivamus id augue mi, quis lacinia enim.
- Proin tincidunt mattis lacus eu sollicitudin.
- Maecenas varius diam quis ipsum pharetra a venenatis dui elementum.
- 
+Tujuan pada penelitian ini adalah sebagai berikut :
+\end_layout
+
+\begin_layout Enumerate
+Menerapkan metode 
+\emph on
+transfer learning
+\emph default
+ untuk memecahkan permasalahan pada penelitian Giovany et.
+ al.
+\end_layout
+
+\begin_layout Enumerate
+Menguji akurasi dari model yang dihasilkan oleh 
+\emph on
+transfer learning.
 \end_layout
 
 \begin_layout Section
@@ -1873,20 +2056,2024 @@ Manfaat Penelitian
 LANDASAN TEORI
 \end_layout
 
+\begin_layout Section
+Artificial Neural Networks (ANN)
+\end_layout
+
+\begin_layout Standard
+Artificial Neural Networks (ANN) adalah paradigma pemrosesan informasi yang
+ terinspirasi oleh cara sistem saraf biologis, seperti otak, memproses informasi
+ (Stergiou Christos, 2010).
+ ANN terdiri dari beberapa elemen pemrosesan yang saling berhubungan (neuron
+ buatan).
+ Neuron bekerja serempak untuk memecahkan masalah-masalah tertentu.
+ ANN, seperti manusia, belajar dari contoh.
+ ANN dikonfigurasi untuk aplikasi tertentu, seperti pengenalan pola atau
+ klasifikasi data, melalui proses pembelajaran.
+ Belajar dalam sistem biologis melibatkan penyesuaian pada koneksi sinaptik
+ yang ada di antara neuron.
+ Ini juga berlaku untuk ANN.
+\end_layout
+
+\begin_layout Subsection
+Preceptron
+\end_layout
+
+\begin_layout Standard
+Perceptron adalah sebuah algoritma yang apabila diberi 
+\emph on
+input feature
+\emph default
+, yaitu vektor 
+\emph on
+m
+\emph default
+ buah 
+\emph on
+x (x1, x2, ..., xn)
+\emph default
+, maka akan menghasilkan output berupa 1 (iya) atau 0 (tidak), yang secara
+ matematis dapat didefinisikan seperti pada gambar 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig2 - ANN - preceptron fn"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Bab2/NeuralNet/preceptron.png
+	width 45col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Preceptron
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig2 - ANN - preceptron fn"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Perceptron
+\emph default
+ adalah nama yang diberikan untuk model yang memiliki satu lapisan linier
+ tunggal, sehingga model memiliki beberapa jaringan disebut sebagai 
+\emph on
+multilayer preceptron
+\emph default
+.
+ Contoh 
+\emph on
+multilayer preceptron
+\emph default
+ dapat dilihat pada gambar 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig2 - ANN - multilayer preceptron"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Bab2/NeuralNet/multilayer preceptron.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Contoh 
+\emph on
+multilayer preceptron
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig2 - ANN - multilayer preceptron"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Neuron Buatan
+\end_layout
+
+\begin_layout Standard
+Neuron buatan adalah perangkat dengan banyak input dan satu output.
+ Neuron memiliki dua mode operasi; mode pelatihan dan mode penggunaan.
+ Dalam mode pelatihan, neuron dapat dilatih untuk menembak (atau tidak),
+ untuk pola input tertentu.
+ Dalam mode penggunaan, ketika pola input yang diajarkan terdeteksi pada
+ input, output yang terkait menjadi output saat ini.
+ Jika pola input tidak termasuk dalam daftar pola input yang diajarkan,
+ aturan pengaktifan digunakan untuk menentukan apakah akan diaktifkan atau
+ tidak.
+\end_layout
+
+\begin_layout Subsection
+Arsitektur jaringan saraf
+\end_layout
+
+\begin_layout Subsubsection
+
+\emph on
+Feed Forward
+\emph default
+ (Umpan Maju)
+\end_layout
+
+\begin_layout Standard
+ANN umpan-maju memungkinkan sinyal untuk melakukan perjalanan hanya satu
+ arah; dari input ke output.
+ ANN umpan maju cenderung jaringan lurus ke depan dan tidak memiliki umpan
+ balik (loop).
+ Arsitektur ini banyak digunakan dalam pengenalan pola.
+ Gambar 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig2 - ANN feedforward"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ menunjukkan contoh arsitektur umpan maju
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Bab2/NeuralNet/forwardprop.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Contoh jaringan 
+\emph on
+Feed Forward
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig2 - ANN feedforward"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\emph on
+Feed Backward
+\emph default
+ (Umpan Balik)
+\end_layout
+
+\begin_layout Standard
+Jaringan umpan balik dapat memiliki sinyal yang berjalan di kedua arah dengan
+ memperkenalkan loop dalam jaringan.
+ Arsitektur umpan balik juga disebut sebagai arsitektur berulang.
+ Jaringan ini sangat rumit dan dinamis.
+ Mereka memiliki state yang sering berubah-ubah hingga mencapai titik ekuilibriu
+m.
+ Gambar 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig2 - ANN rumit"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ menunjukkan contoh arsitektur yang rumit yang bisa dikatakan sebagai arsitektur
+ umpan balik.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Bab2/NeuralNet/feedbackward.png
+	width 65col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Contoh jaringan yang rumit
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig2 - ANN rumit"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Convolutional Neural Networks (CNNs / ConvNets)
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Convolutional Neural Networks
+\emph default
+ (CNN) merupakan jaringan syaraf yang digunakan khusus untuk mengolah data
+ berstruktur 
+\emph on
+grid
+\emph default
+, salah satunya berupa citra dua dimensi.
+ Proses konvolusi merupakan operasi aljabar linear yang mengalikan matriks
+ dari filter pada citra yang akan diproses.
+ Proses tersebut dinamakan dengan lapisan konvolusi dan merupakan salah
+ satu jenis dari banyak lapisan yang bisa dimiliki dalam satu jaringan.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\emph on
+Convolutional Neural Networks
+\series default
+\emph default
+ sangat mirip dengan Neural Networks biasa: mereka terdiri dari neuron yang
+ memiliki 
+\emph on
+weights
+\emph default
+ (bobot) dan bias yang bisa dipelajari.
+ Setiap neuron menerima beberapa masukan, melakukan operasi 
+\emph on
+dot product
+\emph default
+ diikuti dengan dengan non-linearitas.
+ Secara umum, CNN memiliki tiga jenis lapisan, yaitu : 
+\emph on
+Convolutional Layer
+\emph default
+, 
+\emph on
+Pooling Layer
+\emph default
+, dan 
+\emph on
+Fully Connected Layer
+\emph default
+.
+\end_layout
+
+\begin_layout Subsection
+Tinjauan Arsitektur
+\end_layout
+
+\begin_layout Standard
+Umumnya 
+\emph on
+Neural Networks
+\emph default
+ menerima input (sebuah vektor), dan mengubahnya melalui serangkaian lapisan
+ tersembunyi yang disebut dengan 
+\emph on
+hidden layer
+\emph default
+.
+ Setiap lapisan tersembunyi terdiri dari beberapa neuron, di mana setiap
+ neuron sepenuhnya terhubung ke semua neuron di lapisan sebelumnya, dan
+ di mana neuron dalam satu lapisan berfungsi secara independen.
+ Lapisan terakhir yang terhubung penuh disebut lapisan output.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Neural Network
+\emph default
+ biasa memiliki kekurangan dalam hal efisiensi ketika diaplikasikan pada
+ gambar penuh.
+ Sebagai contoh gambar dengan ukuran 32*32*3 (lebar * tinggi * channel)
+ akan memiliki jumlah bobot 32*32*3=3072 untuk setiap neuron.
+ Jumlah ini tampaknya masih dapat dikelola, namun untuk kasus gambar yang
+ lebih besar, misalnya 200*200*3, akan menyebabkan neuron yang memiliki
+ 200 * 200 * 3 = 120.000 bobot.
+ Bobot tersebut perlu dikalikan lagi dengan jumlah neuron di dalam suatu
+ layer sehingga jelas nilai bobot akan berkembang secara drastis.
+ Proses komputasi yang besar tersebut akan cepat menyebabkan 
+\emph on
+Neural Network
+\emph default
+ hanya mampu mengenali data pada saat 
+\emph on
+training
+\emph default
+ namun gagal untuk mendapatkan akurasi pada saat testing atau biasa disebut
+ 
+\emph on
+overfitting
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Convolutional Neural Networks
+\emph default
+ menggunakan pendekatan yang berbeda dari 
+\emph on
+Neural Network
+\emph default
+ biasa.
+ Lapisan-lapisan 
+\emph on
+ConvNet
+\emph default
+ memiliki neuron yang disusun dalam 3 dimensi: lebar, tinggi, kedalaman.
+ Misalnya, gambar input memiliki dimensi 32*32*3 (lebar, tinggi, kedalaman).
+ Neuron-neuron dalam suatu lapisan hanya akan terhubung ke suatu daerah
+ kecil dari lapisan sebelumnya, tidak seperti 
+\emph on
+Neural Network
+\emph default
+ biasa yang menghubungkan semua neuron.
+\end_layout
+
+\begin_layout Standard
+Gambar 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig2 - arsitektur NN"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ menunjukkan 
+\emph on
+Neural Network
+\emph default
+ biasa dengan 3 lapisan.
+ Setiap neuron memiliki koneksi ke seluruh neuron pada lapisan berikutnya.
+ Pada gambar 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig2 - arsitektur CNN"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ 
+\emph on
+ConvNet
+\emph default
+ mengatur neuronnya dalam tiga dimensi (lebar, tinggi, kedalaman).
+ Setiap lapisan dari 
+\emph on
+ConvNet
+\emph default
+ mengubah volume input 3D menjadi volume output 3D dari aktivasi neuron.
+ Dalam contoh ini, lapisan input merah memegang gambar, jadi lebar dan tingginya
+ akan menjadi dimensi gambar, dan kedalamannya adalah 3 (Merah, Hijau, Biru).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Bab2/ConvNet/arsitektur_nn.png
+	width 65col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Arsitektur 
+\emph on
+Neural Network
+\emph default
+ biasa
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig2 - arsitektur NN"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Bab2/ConvNet/arsitektur_cnn.png
+	width 60col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Arsitektur 
+\emph on
+Convolutional Neural Network
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig2 - arsitektur CNN"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Lapisan utama 
+\emph on
+Convolutional Neural Network
+\end_layout
+
+\begin_layout Standard
+Arsitektur 
+\emph on
+Convolutional Neural Networks
+\emph default
+ terdiri dari tiga jenis lapisan utama: 
+\emph on
+Convolutional Layer
+\emph default
+ (
+\emph on
+CONV Layer
+\emph default
+), 
+\emph on
+Pooling Layer
+\emph default
+ (
+\emph on
+POOL Layer
+\emph default
+), dan 
+\emph on
+Fully-Connected Layer
+\emph default
+ (
+\emph on
+FC Layer
+\emph default
+).
+ Ilustrasi lapisan utama 
+\emph on
+ConvNet
+\emph default
+ dapat dilihat pada gambar 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig2 - CNN layer"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Bab2/ConvNet/layer_cnn.png
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Lapisan utama 
+\emph on
+Convolutional Neural Network
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig2 - CNN layer"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Convolutional Layer (CONV Layer)
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Convolutional layer
+\emph default
+ terdiri dari satu set filter (atau neuron atau kernel [GOO, 2016]) yang
+ dapat dipelajari.
+ Setiap filter berukuran kecil secara spasial (nilai lebar dan tinggi),
+ tetapi cenderung memiliki nilai kedalaman yang besar.
+\end_layout
+
+\begin_layout Standard
+Filter tersebut selanjutkan dioperasikan ke pada gambar masukan dengan cara
+ menggesernya ke seluruh bagian pada gambar masukan.
+ Setiap pergeseran akan dilakukan operasi 
+\emph on
+dot product
+\emph default
+ antara gambar masukan dan nilai dari filter tersebut sehingga menghasilkan
+ sebuah output atau biasa disebut sebagai 
+\emph on
+activation map
+\emph default
+ atau 
+\emph on
+feature map
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Sebagai contoh, filter yang umumnya digunakan pada lapisan pertama dari
+ 
+\emph on
+ConvNets
+\emph default
+ memiliki ukuran 5*5*3 (lebar * tinggi * kedalaman).
+ Sedangkan ukuran spasial filter adalah 3*3.
+ Kedalaman pada filter adalah 3 karena harus mengikuti nilai channel pada
+ gambar masukan, yaitu 3.
+ Selanjutnya terdapat dua buah filter sebagai contoh.
+ Selama 
+\emph on
+forward propagation
+\emph default
+, filter bergeser melintasi lebar dan tinggi volume input dan melakukan
+ operasi dot sesuai pada posisi input yang ditemuinya.
+ Hasil dari 
+\emph on
+convolution layer
+\emph default
+ ini adalah sebuah 
+\emph on
+feature map
+\emph default
+ berukuran 3*3*2.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Bab2/ConvNet/conv_layer.png
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Contoh 
+\emph on
+convolutional layer 
+\emph default
+dengan 2 buah filter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\emph on
+Stride
+\end_layout
+
+\begin_layout Standard
+adalah parameter yang menentukan berapa jumlah pergeseran filter.
+ Semakin kecil stride maka akan semakin detail informasi yang didapatkan
+ dari sebuah input, namun membutuhkan komputasi yang lebih jika dibandingkan
+ dengan stride yang besar.
+\end_layout
+
+\begin_layout Paragraph
+
+\emph on
+Padding
+\end_layout
+
+\begin_layout Standard
+adalah parameter yang digunakan untuk menentukan ukuran spasial pada input.
+ Penambahan ukuran spasial dilakukan dengan menambahkan nilai nol pada tepi
+ input.
+ Hal ini digunakan dengan tujuan untuk memanipulasi dimensi output dari
+ Feature Map.
+\end_layout
+
+\begin_layout Standard
+Tujuan dari penggunaan padding adalah untuk menjaga ukuran spasial dari
+ input pada convolutional layer.
+ Dengan menggunakan padding, dimensi output tetap sama seperti dimensi input
+ atau setidaknya tidak berkurang secara drastis.
+ Sehingga 
+\emph on
+convolutional layer
+\emph default
+ dapat lebih dalam dan lebih banyak fitur yang berhasil di-extract.
+\end_layout
+
+\begin_layout Standard
+Untuk menghitung dimensi dari feature map, formula yang digunakan adalah
+ sebagai berikut :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+output=\frac{W-N+2P}{S}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dimana,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\qquad W:$
+\end_inset
+
+ Panjang/tinggi output
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\qquad N:$
+\end_inset
+
+ Panjang/tinggi filter
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\qquad P:$
+\end_inset
+
+ 
+\emph on
+Padding
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\qquad S:$
+\end_inset
+
+ 
+\emph on
+Stride
+\end_layout
+
+\begin_layout Subsubsection
+
+\emph on
+Pooling Layer (POOL Layer) 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Pooling layer
+\emph default
+ umumnya berada setelah 
+\emph on
+Convolution Layer
+\emph default
+.
+ 
+\emph on
+Pooling layer
+\emph default
+ terdiri dari sebuah filter dengan ukuran dan stride tertentu yang akan
+ bergeser pada seluruh area 
+\emph on
+feature map
+\emph default
+.
+ 
+\emph on
+Pooling layer
+\emph default
+ berfungsi untuk mengurangi ukuran spasial dari 
+\emph on
+feature map
+\emph default
+ yang selanjutnya akan mengurangi parameter dan perhitungan di dalam CNN.
+\end_layout
+
+\begin_layout Standard
+Pooling yang biasa digunakan adalah 
+\emph on
+Max Pooling
+\emph default
+ dan 
+\emph on
+Average Pooling
+\emph default
+.
+ Sebagai contoh jika kita menggunakan Max Pooling 2*2 dengan stride 2, maka
+ pada setiap pergeseran filter, nilai maximum pada area 2*2 pixel tersebut
+ yang akan dipilih, sedangkan Average Pooling akan memilih nilai rata-ratanya.
+\end_layout
+
+\begin_layout Standard
+Pada gambar 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig2 - pool layer"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ terlihat contoh dari penggunaan pooling layer pada input dengan ukuran
+ 224*224*64, Operasi pooling dilakukan dengan ukuran filter 2, langkah (
+\emph on
+strides
+\emph default
+) 2 sehingga menghasilkan output ukuran 112*112*64.
+ Perhatikan bahwa kedalaman volume dipertahankan.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Bab2/ConvNet/layer_pool.png
+	width 65col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ilustrasi cara kerja 
+\emph on
+pooling layer
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig2 - pool layer"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pada gambar 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig2 - max pool"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ operasi pooling yang dilakukan adalah max, sehingga menghasilkan penggabungan
+ maksimal.
+ Dengan nilai langkah (stride) adalah 2, ukuran feature map berubah menjadi
+ 2*2.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Bab2/ConvNet/layer_pool2.png
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ilustrasi operasi 
+\emph on
+max pool
+\emph default
+ pada 
+\emph on
+pooling layer
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig2 - max pool"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\emph on
+Fully-Connected Layer (FC Layer) 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Feature map
+\emph default
+ yang dihasilkan dari 
+\emph on
+convolutional layer
+\emph default
+ dan 
+\emph on
+pooling layer
+\emph default
+ masih berbentuk array multidimensi, sehingga perlu dilakukan perataan (
+\emph on
+flatten
+\emph default
+) agar menjadi sebuah vektor N.
+ Vektor yang dihasilkan selanjutnya digunakan sebagai input pada 
+\emph on
+fully-connected layer
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Cara kerja 
+\emph on
+fully-connected layer
+\emph default
+ adalah melihat keluaran dari lapisan sebelumnya dan menentukan fitur mana
+ yang paling berkorelasi dengan kelas tertentu.
+ Sebagai contoh, jika program memprediksi bahwa beberapa gambar adalah kucing,
+ maka nilai 
+\emph on
+activation map
+\emph default
+ yang merepresentasikan sebuah kucing tersebut (seperti mata, jumlah kaki,
+ ekor, dan lain lain) akan bernilai tinggi sehingga selanjutnya akan diketahui
+ bahwa 
+\emph on
+input feature
+\emph default
+ tersebut adalah kucing.
+\end_layout
+
+\begin_layout Section
+Transfer Learning
+\end_layout
+
+\begin_layout Standard
+Melatih model CNN dari awal dengan inisialisasi acak membutuhkan biaya yang
+ sangat besar, baik dari segi data maupun dari segi mesin pemrosesan.
+ Sehingga dalam praktiknya, jarang sekali ditemui proses pelatihan model
+ yang dimulai dari awal.
+ Sehingga sangatlah wajar untuk menggunakan model yang telah terlatih pada
+ dataset yang besar, misalnya 
+\emph on
+ImageNet
+\emph default
+ yang berisi 1,2 juta gambar dengan 1000 kategori.
+ Praktik tersebut dinamakan sebagai transfer learning 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "CS231n"
+literal "true"
+
+\end_inset
+
+.
+ Terdapat tiga skenario utama dalam melakukan 
+\emph on
+transfer learning
+\emph default
+, yaitu :
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Feature extraction
+\emph default
+.
+ Transfer learning dengan mempertahankan ekstraksi fitur.
+ Cara ini akan mengambil arsitektur CNN yang telah dilatih.
+ Dari arsitektur tersebut, lapisan terakhir, tepatnya pada fully-connected
+ layer dihapus.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Fine-tuning
+\emph default
+.
+ Strategi ini tidak hanya mengganti dan melatih kembali arsitektur CNN pada
+ dataset baru, tetapi juga menyempurnakan bobot dari arsitektur yang ditiru
+ dengan melanjutkan backpropagation.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Pre-trained
+\emph default
+.
+ Karena arsitektur CNN modern memerlukan waktu 2-3 minggu untuk dilatih
+ di beberapa GPU di ImageNet, maka umumnya orang-orang mempublikasikan model
+ hasil training mereka untuk digunakan kembali.
+\end_layout
+
+\begin_layout Standard
+Umumnya fitur pada arsitektur CNN lebih generik pada lapisan awal, dan lebih
+ spesifik pada lapisan selanjutnya.
+ Berikut adalah beberapa aturan umum kapan menggunakan transfer learning
+ :
+\end_layout
+
+\begin_layout Enumerate
+Dataset baru berjumlah kecil dan mirip dengan dataset asli.
+ Dalam keadaan ini lapisan CNN sudah relevan, lapisan CNN hanya perlu dilatih
+ dengan dataset baru dan tidak perlu melakukan penyempurnaan pada lapisan
+ (
+\emph on
+fine-tune
+\emph default
+).
+ Fine-tune hanya akan menyebabkan model yang dilatih menjadi overfit.
+\end_layout
+
+\begin_layout Enumerate
+Dataset baru berjumlah besar dan mirip dengan kumpulan data asli.
+ Penyempurnaan pada lapisan (
+\emph on
+fine-tune
+\emph default
+) dapat dilakukan.
+ Karena dataset berjumlah besar, model tidak akan menjadi 
+\emph on
+overfit
+\emph default
+.
+\end_layout
+
+\begin_layout Enumerate
+Dataset baru berjumlah kecil dan sangat berbeda dari kumpulan data asli.
+ Karena dataset berjumlah kecil, maka lebih baik hanya melatih model dengan
+ dataset baru.
+ Selain itu, dengan dataset yang berbeda, pelatihan pada model perlu dimulai
+ dari lapisan atas CNN, karena lapisan atas CNN berisikan fitur yang lebih
+ spesifik dengan kelas.
+ Dataset baru berjumlah besar dan sangat berbeda dengan dataset asli.
+ Karena dataset berjumlah besar, pelatihan pada layer CNN dapat dimulai
+ dari awal.
+ Namun pada praktiknya, menggunakan menggunakan bobot pada dataset lama
+ (
+\emph on
+pretrain model
+\emph default
+) juga dapat menguntungkan.
+\end_layout
+
+\begin_layout Section
+Keras
+\end_layout
+
+\begin_layout Standard
+Keras adalah kerangka kerja (
+\emph on
+framework
+\emph default
+) 
+\emph on
+open source
+\emph default
+ tingkat tinggi yang menyediakan abstraksi untuk mendefinisikan 
+\emph on
+neural network
+\emph default
+.
+ Keras berjalan di atas TensorFlow, CNTK atau Theano − pengguna dapat memilih
+ saat menggunakan Keras.
+ Secara detail keras memiliki tiga kelebihan, yaitu :
+\end_layout
+
+\begin_layout Enumerate
+Modularitas : Model baik 
+\emph on
+Sequence
+\emph default
+ maupun 
+\emph on
+Graph
+\emph default
+ dapat digabungkan bersama seperti sebuah blok lego untuk membangun 
+\emph on
+neural network
+\emph default
+.
+ Keras menyediakan berbagai modul seperti 
+\emph on
+cost function
+\emph default
+, 
+\emph on
+optimizer function
+\emph default
+, 
+\emph on
+activation function
+\emph default
+, 
+\emph on
+initialization
+\emph default
+ dan 
+\emph on
+regularization
+\emph default
+.
+\end_layout
+
+\begin_layout Enumerate
+Minimalis : Pustaka diimplementasikan dengan Python dan setiap modul dibuat
+ singkat dan mudah digunakan.
+\end_layout
+
+\begin_layout Enumerate
+Kemudahan perluasan : Perpustakaan dapat diperluas dengan fungsionalitas
+ baru.
+ 
+\end_layout
+
+\begin_layout Standard
+Contoh penggunaan Keras dapat dilihat pada kode berikut : 
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+from tensorflow import keras
+\end_layout
+
+\begin_layout Plain Layout
+
+from keras.models import Sequential
+\end_layout
+
+\begin_layout Plain Layout
+
+from keras.layers import Dense
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+model = Sequential()
+\end_layout
+
+\begin_layout Plain Layout
+
+model.add(Dense(256, input_dim=2, activation='relu'))
+\end_layout
+
+\begin_layout Plain Layout
+
+model.add(Dense(2, activation='sigmoid'))
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Sequential
+\emph default
+ memungkinkan untuk membangun arsitektur 
+\emph on
+neural network
+\emph default
+, yaitu berupa tumpukan lapisan.
+ Contoh di atas terdiri dari dua lapisan tersembunyi (
+\emph on
+hidden layer
+\emph default
+), yaitu 
+\emph on
+dense
+\emph default
+, atau 
+\emph on
+fully-connected layer
+\emph default
+.
+ Potongan kode berikut dapat digambarkan seperti pada gambar 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig2 - keras - diagram-neuralnet"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Bab2/Keras/diagram_neuralnet.png
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ilustrasi arsitektur neural network
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig2 - keras - diagram-neuralnet"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Jaringan tersebut terdiri memiliki input 
+\emph on
+x1
+\emph default
+ dan 
+\emph on
+x2
+\emph default
+.
+ Setiap unit pada lapisan tersembunyi menghitung bobot dari input dan kemudian
+ hasilnya akan melewati fungsi ReLU.
+ Lapisan output terdiri dari dua unit 
+\emph on
+sigmoid
+\emph default
+ yang menghitung jumlah bobot dan melewatkannya melalui fungsi 
+\emph on
+sigmoid
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Langkah selanjutnya adalah melakukan kompilasi model.
+ Kompilasi memerlukan tiga input: 
+\emph on
+optimizer
+\emph default
+, 
+\emph on
+loss function
+\emph default
+, dan daftar metrik yang digunakan untuk hasil.
+ Contoh kompilasi model dapat dilihat pada kode berikut :
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+self.model.compile(
+\end_layout
+
+\begin_layout Plain Layout
+
+	loss='binary_crossentropy',
+\end_layout
+
+\begin_layout Plain Layout
+
+	optimizer='adam',
+\end_layout
+
+\begin_layout Plain Layout
+
+	metrics=['accuracy']) 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Potongan kode tersebut menggunakan 
+\emph on
+binary crossentropy
+\emph default
+ sebagai 
+\emph on
+loss function
+\emph default
+, 
+\emph on
+Adam
+\emph default
+ sebagai 
+\emph on
+optimizer
+\emph default
+ dan menampilkan metrik akurasi (
+\emph on
+accuracy
+\emph default
+).
+ Perhatikan bahwa metrik dapat terdiri lebih dari satu jenis.
+ Keras akan menampilkan semua metrik yang disediakan saat proses training
+ berlangsung.
+\end_layout
+
+\begin_layout Standard
+Kode berikut berguna untuk melihat ringkasan arsitektur dari model yang
+ dilatih :
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+model.summary() 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Kode tersebut menghasilkan keluaran berikut : 
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+_________________________________________________________________
+\end_layout
+
+\begin_layout Plain Layout
+
+Layer (type) Output Shape Param #  
+\end_layout
+
+\begin_layout Plain Layout
+
+=================================================================
+\end_layout
+
+\begin_layout Plain Layout
+
+dense_1 (Dense) (None, 256) 768
+\end_layout
+
+\begin_layout Plain Layout
+
+_________________________________________________________________
+\end_layout
+
+\begin_layout Plain Layout
+
+dense_2 (Dense) (None, 1) 257  
+\end_layout
+
+\begin_layout Plain Layout
+
+=================================================================
+\end_layout
+
+\begin_layout Plain Layout
+
+Total params: 1025 Trainable params: 1025 Non-trainable params: 0 
+\end_layout
+
+\begin_layout Plain Layout
+
+_________________________________________________________________  
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Output tersebut berisi jumlah bobot atau parameter untuk setiap lapisan
+ dan jumlah parameter agregat.
+ Lapisan pertama,
+\emph on
+ dense_1
+\emph default
+, memiliki 256 unit.
+ Dengan input citra RGB, maka total parameter yang diterima oleh lapisan
+ pertama adalah 256*3=768 parameter.
+ Sedangkan lapisan kedua, 
+\emph on
+dense_2
+\emph default
+, memiliki 256 input dari lapisan sebelumnya ditambah dengan parameter bias,
+ oleh karena itu lapisan kedua memiliki 256+1-257 parameter.
+ Jumlah dari dua angka ini, 768 + 257 = 1.025, adalah jumlah total parameter
+ untuk model.
+\end_layout
+
+\begin_layout Standard
+Pada output tersebut semua parameter dianggap dapat dilatih (
+\emph on
+trainable
+\emph default
+).
+ Hal tersebut berarti 
+\emph on
+backpropagation
+\emph default
+ akan melakukan penyesuaian pada parameter tersebut untuk meminimalkan error
+ − yang diistilahkan sebagai proses 
+\emph on
+training
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Langkah terakhir adalah melatih model menggunakan kode berikut : 
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+history = model.fit(x, y, epochs=250) 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hasil dari kode tersebut adalah sebagai berikut : 
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+Epoch 1/250
+\end_layout
+
+\begin_layout Plain Layout
+
+8/8 [==========================] - 0s - loss: 0.4919 - acc: 0.8125
+\end_layout
+
+\begin_layout Plain Layout
+
+Epoch 2/250
+\end_layout
+
+\begin_layout Plain Layout
+
+8/8 [==========================] - 0s - loss: 0.4920 - acc: 0.8750
+\end_layout
+
+\begin_layout Plain Layout
+
+Epoch 3/250
+\end_layout
+
+\begin_layout Plain Layout
+
+8/8 [==========================] - 0s - loss: 0.4908 - acc: 0.8125
+\end_layout
+
+\begin_layout Plain Layout
+
+Epoch 4/250
+\end_layout
+
+\begin_layout Plain Layout
+
+8/8 [==========================] - 0s - loss: 0.4909 - acc: 0.8750
+\end_layout
+
+\begin_layout Plain Layout
+
+Epoch 5/250
+\end_layout
+
+\begin_layout Plain Layout
+
+8/8 [==========================] - 0s - loss: 0.4900 - acc: 0.8750
+\end_layout
+
+\begin_layout Plain Layout
+
+...
+\end_layout
+
+\begin_layout Plain Layout
+
+Epoch 245/250
+\end_layout
+
+\begin_layout Plain Layout
+
+8/8 [==========================] - 0s - loss: 0.4447 - acc: 0.8750
+\end_layout
+
+\begin_layout Plain Layout
+
+Epoch 246/250
+\end_layout
+
+\begin_layout Plain Layout
+
+8/8 [==========================] - 0s - loss: 0.4439 - acc: 1.0000
+\end_layout
+
+\begin_layout Plain Layout
+
+Epoch 247/250
+\end_layout
+
+\begin_layout Plain Layout
+
+8/8 [==========================] - 0s - loss: 0.4451 - acc: 0.8750
+\end_layout
+
+\begin_layout Plain Layout
+
+Epoch 248/250
+\end_layout
+
+\begin_layout Plain Layout
+
+8/8 [==========================] - 0s - loss: 0.4450 - acc: 1.0000
+\end_layout
+
+\begin_layout Plain Layout
+
+Epoch 249/250
+\end_layout
+
+\begin_layout Plain Layout
+
+8/8 [==========================] - 0s - loss: 0.4442 - acc: 0.8750
+\end_layout
+
+\begin_layout Plain Layout
+
+Epoch 250/250
+\end_layout
+
+\begin_layout Plain Layout
+
+8/8 [==========================] - 0s - loss: 0.4435 - acc: 1.0000
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Variabel objek history akan berisi informasi mengenai proses pelatihan,
+ misalnya 
+\emph on
+history.history[‘acc’]
+\emph default
+ berisi akurasi pada setiap 
+\emph on
+epoch
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Dari output tersebut, grafik penurunan loss pada model dapat dilihat pada
+ gambar 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig2 - keras - loss"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Bab2/Keras/loss_graph.png
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ilustrasi grafik 
+\emph on
+loss function
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig2 - keras - loss"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Objek model juga dapat digunakan untuk melakukan prediksi pada data.
+ Berikut adalah potongan kode untuk memanggil metode prediksi : 
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+model.predict(x) 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Kode tersebut menghasilkan keluaran sebagai berikut : 
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+array([ [{probability}] ], dtype=float32) 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Di mana probability adalah probabilitas data yang termasuk dalam kelas positif.
+ 
+\end_layout
+
 \begin_layout Chapter
 METODOLOGI PENELITIAN
 \end_layout
 
-\begin_layout Section
-Jenis Penelitian
+\begin_layout Standard
+Bab ini membahas mengenai tahap-tahap yang dilakukan dalam pengenalan citra
+ makanan Indonesia.
+ Penelitian ini terdiri dari 5 tahapan, yaitu studi pustaka, pengumpulan
+ data, 
+\emph on
+pre-processing
+\emph default
+ gambar, pengembangan model dan evaluasi metrik.
 \end_layout
 
 \begin_layout Section
-Metode Pengumpulan Data
+Studi Pustaka
+\end_layout
+
+\begin_layout Standard
+Studi Pustaka merupakan kegiatan untuk mempelajari literatur-literatur dan
+ teori yang mendukung dalam melakukan penelitian ini.
+ Studi Pustaka dilakukan untuk mendapatkan informasi mengenai topik penelitian
+ yang terkait dengan 
+\emph on
+convolutional neural network
+\emph default
+, 
+\emph on
+transfer learning
+\emph default
+, arsitektur 
+\emph on
+neural network
+\emph default
+ yang dapat bersumber dari buku, paper, jurnal, artikel, atau bahan tertulis
+ lainnya yang berupa teori, baik bersifat 
+\emph on
+online
+\emph default
+ maupun 
+\emph on
+offline
+\emph default
+.
 \end_layout
 
 \begin_layout Section
-Analisis dan Perancangan
+Pengumpulan data
+\end_layout
+
+\begin_layout Standard
+Pengumpulan data dilakukan melalui situs-situs penyedia makanan populer,
+ seperti zomato dan flickr.
+ Penelitian ini menggunakan setidaknya 1000 gambar yang mengandung 3 kelas
+ gambar, yaitu bakso, ayam bakar dan sate.
+ Gambar yang didapatkan memiliki kriteria sebagai berikut :
+\end_layout
+
+\begin_layout Enumerate
+Memiliki 1 buah obyek yang akan dikenali.
+\end_layout
+
+\begin_layout Enumerate
+Citra harus mengandung dari obyek penuh dan tidak terpotong.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Citra yang akan dikenali tidak boleh mengandung obyek yang bukan makanan,
+ misalnya garpu, sendok, kompor, dan lain lain.
+\end_layout
+
+\begin_layout Enumerate
+Resolusi gambar minimum adalah 100*100 piksel.
+\end_layout
+
+\begin_layout Section
+Pre-processing
+\end_layout
+
+\begin_layout Section
+Pengembangan model
+\end_layout
+
+\begin_layout Standard
+Pada tahapan pengembangan model, 
+\end_layout
+
+\begin_layout Section
+Evaluasi metrik
 \end_layout
 
 \begin_layout Chapter
