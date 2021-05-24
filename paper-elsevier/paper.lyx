@@ -154,19 +154,9 @@ Keep this empty!
 \end_layout
 
 \begin_layout Title
-This is a specimen title
-\begin_inset Flex Titlenotemark
-status open
-
-\begin_layout Plain Layout
-t1,t2
-\end_layout
-
-\end_inset
-
-
+Penggunaan Metode Transfer Learning untuk Mengenali Citra Makanan Indonesia
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -188,20 +178,6 @@ tnoteref
 \end_layout
 
 \begin_layout Title footnote
-This document is a collaborative effort.
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-t1
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Title footnote
 The second title footnote which is a longer longer than the first one and
  with an intention to fill in up more than one line while formatting.
 \begin_inset Argument 1
@@ -215,7 +191,7 @@ t2
 
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 There are two author styles possible:
@@ -313,11 +289,7 @@ Address
 \end_layout
 
 \begin_layout Author
-C.V.
-\begin_inset space ~
-\end_inset
-
-Radhakrishnan
+Muhammad Valdie Arsanur
 \begin_inset Flex Authormark
 status collapsed
 
@@ -361,60 +333,12 @@ rvt
 \end_layout
 
 \begin_layout Email
-cvr@river-valley.com
+valdiearsanur@gmail.com
 \begin_inset Note Note
 status collapsed
 
 \begin_layout Plain Layout
 At least one Email address is required.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Author
-K.
-\begin_inset space ~
-\end_inset
-
-Bazargan
-\begin_inset Flex Authormark
-status open
-
-\begin_layout Plain Layout
-fn2
-\end_layout
-
-\end_inset
-
-
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-rvt,focal
-\end_layout
-
-\end_inset
-
-
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-
-\size normal
-With 
-\series bold
-\size default
-
-\backslash
-fnref
-\series default
-\size normal
- and you refer to the author footnotes.
 \end_layout
 
 \end_inset
@@ -436,65 +360,12 @@ url
 
 \end_layout
 
-\begin_layout Author footnote
-This is the specimen author footnote.
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-fn1
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Author footnote
-Another author footnote, but a little more longer.
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-fn2
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Corresponding author
-Corresponding author
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-cor1
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Corresponding author
-Principal corresponding author
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-cor2
-\end_layout
-
-\end_inset
-
-
+\begin_layout Address
+Gunadarma University, Jalan Margonda Raya 100 Pondok Cina,
 \end_layout
 
 \begin_layout Address
-River Valley Technologies, SJP Building, Cotton Hills, Trivandrum, Kerala,
- India 695014
+Depok, 16424 
 \begin_inset Argument 1
 status open
 
@@ -508,19 +379,8 @@ rvt
 \end_layout
 
 \begin_layout Address
-River Valley Technologies, 9, Browns Court, Kennford, Exeter, United Kingdom
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-focal
-\end_layout
-
-\end_inset
-
-
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 This is an example of the second author style:
@@ -579,7 +439,7 @@ Abstract, should normally be not longer than 200 words.
 \end_layout
 
 \begin_layout Keywords
-quadruple exiton 
+Computer Vision 
 \begin_inset ERT
 status collapsed
 
@@ -592,7 +452,7 @@ sep
 
 \end_inset
 
- polariton 
+ Convolutional Neural Network 
 \begin_inset ERT
 status collapsed
 
@@ -605,7 +465,7 @@ sep
 
 \end_inset
 
- WGM 
+ Transfer Learning 
 \begin_inset ERT
 status collapsed
 
@@ -733,140 +593,79 @@ lineno
 \end_layout
 
 \begin_layout Section
-Introduction
+Pendahuluan
 \end_layout
 
 \begin_layout Standard
-Bla bla, as listed in 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "article-full,booklet-full"
-literal "true"
-
-\end_inset
-
-.
+Otak normal manusia memiliki kemampuan perseptual yang sangat baik.
+ Otak manusia mampu dengan mudah membedakan objek yang berada di sekitarnya.
+ Namun hal tersebut menjadi permasalahan yang sulit diselesaikan oleh komputer.
+ Permasalahan tersebut dipelajari dalam disiplin ilmu yang dinamakan Computer
+ Vision.
+ Computer Vision memiliki manfaat untuk mengotomatisasi tugas-tugas yang
+ dilakukan oleh sistem visual manusia.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula 
-\begin{eqnarray}
-A & = & \prod_{i=1}^{\infty}B\nonumber \\
- & = & C
-\end{eqnarray}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Theorem
-Theorem 1
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Theorem
-Theorem 2
-\end_layout
-
-\begin_layout Subsection
-Subsection
-\end_layout
-
-\begin_layout Enumerate
-test
-\end_layout
-
-\begin_layout Enumerate
-test
+Computer Vision adalah bidang yang berhubungan dengan bagaimana komputer
+ dapat dibuat untuk mendapatkan pemahaman tingkat tinggi dari gambar digital
+ atau video.
+ Tugas computer vision adalah untuk memperoleh, memproses, menganalisis
+ dan memahami gambar digital, dan ekstraksi data berdimensi tinggi dari
+ dunia nyata untuk menghasilkan informasi numerik atau simbolis dalam bentuk
+ keputusan [#Reinhard2014].
+ Data gambar dapat berasal dari berbagai sumber, seperti potongan frame
+ pada video, hasil bidikan kamera, hasil dari peralatan pencitraan medis
+ dan lain lain.
+ Computer Vision menerapkan teori dan model dari beberapa bidang seperti
+ Machine Learning (pembelajaran mesin), ilmu kognitif, psikologi, pengenalan
+ pola untuk menciptakan aplikasi yang memecahkan masalah yang sangat spesifik.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-To get another numbering scheme, you cannot use an option argument (a.k.a.
- short title) as described in the elsarticle manual.
- But you can use the following \SpecialChar TeX
--code command to achieve the same:
-\end_layout
-
-\end_inset
-
-
+Salah satu aplikasi yang memiliki potensi besar dalam computer vision adalah
+ pengenalan makanan.
+ Pendeteksian makanan memiliki tantangan tersendiri karena makanan cenderung
+ dapat berubah bentuk.
+ Selain itu, beberapa jenis makanan dapat memiliki intra-kelas yang tinggi
+ dan varian antar-kelas yang rendah [#NutriNet2017].
+ Hal tersebut berarti beberapa makanan dapat berbeda jenis walaupun memiliki
+ bentuk yang sama, ataupun sejenis walaupun memiliki bentuk yang berbeda.
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand{
-\backslash
-labelenumi}{(
-\backslash
-roman{enumi})} 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-test
-\end_layout
-
-\begin_layout Enumerate
-test
+Berbagai penelitian untuk mengenali makanan telah dilakukan, seperti Kawano
+ dan Yanai yang menggunakan metode Fisher Vector dan Linear One-vs-Rest
+ Support Vector Machine untuk mengenali 100 jenis makanan Jepang yang hasilnya
+ adalah akurasi sebesar 72% [#Kawano2013RealTimeMF].
+ Penelitian terhadap makanan indonesia juga telah dilakukan oleh Giovany
+ et.al.
+ yang menggunakan metode Machine Learning dan Scale Invariant Feature Transform
+ (SIFT) yang hasilnya adalah akurasi sebesar 51% [#GIOVANY2017612].
+ Namun akurasi pada penelitian tersebut masih terbilang rendah karena terbatasny
+a dataset [#GIOVANY2017612].
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand{
-\backslash
-labelenumi}{Step
-\backslash
-,
-\backslash
-alph{enumi})} 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-test
-\end_layout
-
-\begin_layout Enumerate
-test
-\end_layout
-
-\begin_layout Subsubsection
-Subsubsection
+Seperti yang dinyatakan sebelumnya, pengenalan gambar memerlukan jumlah
+ data yang sangat besar.
+ Selain itu komputasi yang dilakukan untuk melatih model sangat mahal [#Shin2016
+DeepCN].
+ Sehingga umumnya peneliti menggunakan model yang sudah terlatih pada dataset
+ dengan jumlah yang besar (dalam hal ini sudah memiliki bobot) untuk menyelesaik
+an permasalahan tertentu.
+ Proses tersebut dinamakan sebagai transfer learning [karpathy].
 \end_layout
 
 \begin_layout Standard
-Bla, bla
+Penelitian ini dikhususkan untuk mengembangkan penelitian Giovany et.
+ al.
+ dengan merancang sistem pengenalan 3 gambar makanan Indonesia, yaitu bakso,
+ ayam bakar dan sate.
+ Penelitian dilakukan untuk meningkatkan akurasi dari penelitian sebelumnya
+ dengan menggunakan metode transfer learning.
+ Transfer learning yang dilakukan menggunakan arsitektur CNN yang telah
+ terlatih pada skala gambar yang besar.
 \end_layout
 
 \begin_layout Section
@@ -878,28 +677,21 @@ Appendix name
 Appendix, only when needed.
 \end_layout
 
-\begin_layout Section*
-—————–
+\begin_layout Section
+Referensi
 \end_layout
 
 \begin_layout Standard
-You can use either Bib\SpecialChar TeX
-:
-\begin_inset Note Note
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
-The following bibliography styles are allowed: 
-\family sans
-elsarticle-harv
-\family default
-, 
-\family sans
-elsarticle-num-names
-\family default
-, or 
-\family sans
-elsarticle-num
+
+
+\backslash
+renewcommand
+\backslash
+bibname{DAFTAR PUSTAKA} 
 \end_layout
 
 \end_inset
@@ -910,51 +702,29 @@ elsarticle-num
 \begin_layout Standard
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
-bibfiles "xampl"
-options "bibtotoc,elsarticle-harv"
+btprint "btPrintAll"
+bibfiles "biblio"
+options "bibtotoc,plain"
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Section*
-———————
 \end_layout
 
 \begin_layout Standard
-\noindent
-Or plain bibliography:
-\end_layout
+\begin_inset ERT
+status open
 
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "key-1"
-literal "true"
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{DAFTAR PUSTAKA} 
+\end_layout
 
 \end_inset
 
-Frank Mittelbach and Michel Goossens: 
-\emph on
-The \SpecialChar LaTeX
- Companion Second Edition.
 
-\emph default
- Addison-Wesley, 2004.
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "key-2"
-literal "true"
-
-\end_inset
-
-Scott Pakin.
- The comprehensive \SpecialChar LaTeX
- symbol list, 2005.
 \end_layout
 
 \end_body
